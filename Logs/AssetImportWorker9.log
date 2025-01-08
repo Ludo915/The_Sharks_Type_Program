@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\6000.0.26f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker9
 -projectPath
 C:/Users/ludov/Desktop/The_Sharks_Type_Program
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker9.log
 -srvPort
 62830
 -job-worker-count
@@ -59,16 +59,14 @@ C:/Users/ludov/Desktop/The_Sharks_Type_Program
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17172]  Target information:
+Player connection [41212]  Target information:
 
-Player connection [17172]  * "[IP] 172.23.48.1 [Port] 0 [Flags] 2 [Guid] 2519317100 [EditorId] 2519317100 [Version] 1048832 [Id] WindowsEditor(7,Ludo915) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [41212]  * "[IP] 172.23.48.1 [Port] 0 [Flags] 2 [Guid] 3710907145 [EditorId] 3710907145 [Version] 1048832 [Id] WindowsEditor(7,Ludo915) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17172]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2519317100 [EditorId] 2519317100 [Version] 1048832 [Id] WindowsEditor(7,Ludo915) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [41212]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3710907145 [EditorId] 3710907145 [Version] 1048832 [Id] WindowsEditor(7,Ludo915) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17172]  * "[IP] 172.20.10.3 [Port] 0 [Flags] 2 [Guid] 2519317100 [EditorId] 2519317100 [Version] 1048832 [Id] WindowsEditor(7,Ludo915) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [17172] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [41212] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [41212] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
@@ -95,48 +93,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005774 seconds.
-- Loaded All Assemblies, in  0.481 seconds
+Registered in 0.006711 seconds.
+- Loaded All Assemblies, in  0.480 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.453 seconds
-Domain Reload Profiling: 928ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.399 seconds
+Domain Reload Profiling: 874ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (150ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (192ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (167ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (453ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (399ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (395ms)
+		SetupLoadedEditorAssemblies (350ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (62ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -144,8 +142,8 @@ Domain Reload Profiling: 928ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.296 seconds
-Refreshing native plugins compatible for Editor in 3.88 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.529 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -169,101 +167,157 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.690 seconds
-Domain Reload Profiling: 2977ms
-	BeginReloadAssembly (473ms)
+- Finished resetting the current domain, in  1.755 seconds
+Domain Reload Profiling: 3276ms
+	BeginReloadAssembly (708ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (717ms)
-		LoadAssemblies (496ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (715ms)
+		LoadAssemblies (503ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (349ms)
-			TypeCache.Refresh (239ms)
-				TypeCache.ScanAssembly (218ms)
-			BuildScriptInfoCaches (93ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1690ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (211ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1755ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1393ms)
+		SetupLoadedEditorAssemblies (1430ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (1143ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (1172ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.80 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 6.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 223 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6596 unused Assets / (4.0 MB). Loaded Objects now: 7396.
-Memory consumption went from 208.9 MB to 205.0 MB.
-Total: 27.184200 ms (FindLiveObjects: 0.696300 ms CreateObjectMapping: 0.634900 ms MarkObjects: 23.012400 ms  DeleteObjects: 2.837400 ms)
+Memory consumption went from 212.6 MB to 208.7 MB.
+Total: 21.843300 ms (FindLiveObjects: 1.515000 ms CreateObjectMapping: 0.383800 ms MarkObjects: 17.864200 ms  DeleteObjects: 2.078500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34029.350752 seconds.
-  path: Assets/3D_Shark/SHARK_RENDER/Shark_00012.png
-  artifactKey: Guid(0f6a222ccf9526240b1e695c48099d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Shark/SHARK_RENDER/Shark_00012.png using Guid(0f6a222ccf9526240b1e695c48099d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e136794d82d0eefe21e56334152ecc') in 0.114566 seconds
+  Time since last request: 49244.790793 seconds.
+  path: Assets/3D_Shark/frame_1.png
+  artifactKey: Guid(ebd8c21a23eec2a4b9c7a1dfe6bfcb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_1.png using Guid(ebd8c21a23eec2a4b9c7a1dfe6bfcb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcf8831e85ac5005aded6ba16499440b') in 0.0815783 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D_Shark/SHARK_RENDER/Shark_00008.png
-  artifactKey: Guid(c6f1cad9a1500c343855cc2c6d518801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Shark/SHARK_RENDER/Shark_00008.png using Guid(c6f1cad9a1500c343855cc2c6d518801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10947c1b0267607466e2b2704576bfae') in 0.0157015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D_Shark/SHARK_RENDER/Shark_00011.png
-  artifactKey: Guid(744c38f8fceb32b4480eabf303ff5513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Shark/SHARK_RENDER/Shark_00011.png using Guid(744c38f8fceb32b4480eabf303ff5513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1092743355d440a80660a72b9902d9cc') in 0.0131704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.099664 seconds.
-  path: Assets/3D_Shark/SHARK_RENDER/Shark_00015.png
-  artifactKey: Guid(326e8a572f787c145bd5c237c5d65d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Shark/SHARK_RENDER/Shark_00015.png using Guid(326e8a572f787c145bd5c237c5d65d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c6c9c1e00a2c4f21303f7805fbe952') in 0.0093247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/3D_Shark/SHARK_RENDER/Shark_00025.png
-  artifactKey: Guid(f60b51180182bdf4597e8011c52d1cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Shark/SHARK_RENDER/Shark_00025.png using Guid(f60b51180182bdf4597e8011c52d1cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22babeba0c3edf8a7284ab0e19d36a49') in 0.0073494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3D_Shark/SHARK_RENDER/Shark_00027.png
-  artifactKey: Guid(6e3b9dd64981da24981959da221db9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Shark/SHARK_RENDER/Shark_00027.png using Guid(6e3b9dd64981da24981959da221db9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd745dc15f92f30d0c25d1ec1f793e2f') in 0.0098333 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D_Shark/frame_5.png
+  artifactKey: Guid(17c686da5c5b3694ebd09a706b4dd0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_5.png using Guid(17c686da5c5b3694ebd09a706b4dd0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e329ebdb7d21e71af995d376b7ff1a34') in 0.0106901 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/3D_Shark/SHARK_RENDER/Shark_00018.png
-  artifactKey: Guid(d0a53fc067c8d93498cad2ae4ca0ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Shark/SHARK_RENDER/Shark_00018.png using Guid(d0a53fc067c8d93498cad2ae4ca0ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '088ba189da7895202e371d4e6065bc31') in 0.0111856 seconds
+  path: Assets/3D_Shark/frame_7.png
+  artifactKey: Guid(ddaa36b7aa35f9e4f94c8105967b43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_7.png using Guid(ddaa36b7aa35f9e4f94c8105967b43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '491811bcddba6895cf899d1b6600944f') in 0.011752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D_Shark/frame_18.png
+  artifactKey: Guid(62c38a81e61ee584c8b394c7ca5e6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_18.png using Guid(62c38a81e61ee584c8b394c7ca5e6411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bc7e416c37820b92d5a0ef58535a44d') in 0.0124473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D_Shark/frame_26.png
+  artifactKey: Guid(47d69752bd9a5bd41b564f291958f549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_26.png using Guid(47d69752bd9a5bd41b564f291958f549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c1fd99d27aec6b69de1ffc753b914fe') in 0.0128188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D_Shark/frame_14.png
+  artifactKey: Guid(d028766fd677d504794f1387a016e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_14.png using Guid(d028766fd677d504794f1387a016e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b822871d94b2857154810ce038194cce') in 0.0103926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D_Shark/frame_17.png
+  artifactKey: Guid(a5e60240c8f70b048b4bc1092db4e69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_17.png using Guid(a5e60240c8f70b048b4bc1092db4e69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '253a291e1d216a9e5b5000ee29341fd4') in 0.0140143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D_Shark/frame_19.png
+  artifactKey: Guid(3feaa818cd42cad448dc06e10b989708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_19.png using Guid(3feaa818cd42cad448dc06e10b989708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5f8ac5816a82fce68c25d3405d555f1') in 0.0095199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D_Shark/frame_10.png
+  artifactKey: Guid(18bfdcd198461ec42a9ff5a2e2e2e16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_10.png using Guid(18bfdcd198461ec42a9ff5a2e2e2e16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fba78860e15de683fefd68c13ed414c4') in 0.0081216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D_Shark/frame_27.png
+  artifactKey: Guid(51bb8f742b1c91a4d82decc645ccce8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_27.png using Guid(51bb8f742b1c91a4d82decc645ccce8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72835c0ecd7922a822460abfb9e440fc') in 0.0082476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D_Shark/frame_11.png
+  artifactKey: Guid(745fa01ff40bfe540bc03ad56ef90e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_11.png using Guid(745fa01ff40bfe540bc03ad56ef90e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2b9a49287f8c2ebc887c0d4870bbf74') in 0.0082046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D_Shark/frame_2.png
+  artifactKey: Guid(5bff96ef43d397644a9995fea3cab480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_2.png using Guid(5bff96ef43d397644a9995fea3cab480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf691329ca390197b973d3076518999f') in 0.0083194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D_Shark/frame_8.png
+  artifactKey: Guid(2ac4b59c7de998e44990c23463db8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_8.png using Guid(2ac4b59c7de998e44990c23463db8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3df61944cb4e155dce9b85bc28e6b1ae') in 0.0081815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D_Shark/frame_22.png
+  artifactKey: Guid(cf6639140708042409ba329f23cb85fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Shark/frame_22.png using Guid(cf6639140708042409ba329f23cb85fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '513a176f8479db7b6250a49b0fa137cc') in 0.0089416 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
