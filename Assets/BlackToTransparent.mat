@@ -47,6 +47,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TransparencyColor: {r: 30.000006, g: 29.000006, b: 30.000006, a: 1}
+    - _TransparencyColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
